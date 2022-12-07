@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\marti\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/three -D
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\MinGW\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Python310\Scripts\;C:\Python310\;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Users\marti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marti\AppData\Roaming\npm;C:\Users\marti\.dotnet\tools;C:\src\flutter\bin;C:\Users\marti\AppData\Local\Pub\Cache\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;;C:\Users\marti\.minikube;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\marti\OneDrive\Escritorio\js-samples\node_modules\esbuild\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "threejs-overlay-simple",
+    "description": "Samples for Google Maps JavaScript",
+    "version": "2.1.4",
+    "keywords": [
+      "google",
+      "javascript",
+      "maps",
+      "samples"
+    ],
+    "homepage": "https://github.com/googlemaps/js-samples#readme",
+    "bugs": {
+      "url": "https://github.com/googlemaps/js-samples/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/googlemaps/js-samples.git"
+    },
+    "files": [],
+    "license": "Apache-2.0",
+    "scripts": {
+      "dev": "vite",
+      "start": "vite",
+      "build": "vite build --outDir dist --base './'",
+      "test": "tsc --no-emit",
+      "preview": "vite preview"
+    },
+    "devDependencies": {
+      "@types/google.maps": "^3.50.4",
+      "typescript": "^4.8.4",
+      "vite": "^3.1.7"
+    },
+    "private": true,
+    "dependencies": {
+      "@googlemaps/three": "^3.0.3",
+      "three": "^0.140.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
